@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DBHelper {
     private static final String URL = "jdbc:mysql://localhost:3306/library";
     private static final String USER = "root";
-    private static final String PASSWORD = "Steatimarti@143";
+    private static final String PASSWORD = "root";
 
     public static Connection getConnection() throws SQLException {
         try {
