@@ -1,0 +1,24 @@
+# Treat all `.java` files as Java (primary language)
+*.java linguist-language=Java
+
+# Treat all `.sql` files as MySQL
+*.sql linguist-language=SQL
+
+# Treat all `.css` files as CSS
+*.css linguist-language=CSS
+
+# Exclude auto-generated or unnecessary files from language stats
+# Ignore compiled Java bytecode files
+*.class linguist-vendored
+
+# Ignore build artifacts (e.g., from Maven or Gradle)
+target/* linguist-vendored
+build/* linguist-vendored
+
+# Ignore dependency management files
+*.jar linguist-vendored
+*.war linguist-vendored
+
+# Ignore minified CSS files
+*.min.css linguist-vendored
+
