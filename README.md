@@ -29,4 +29,4 @@ A JavaFX application for managing library operations with MySQL database integra
 ## Setup Instructions
 1. Clone the repository
    ```bash
-   git clone https://github.com/YOUR_USERNAME/library-management-system.git
+   git clone https://github.com/KARANDOGRA143/library-management-system.git
